@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CLOCK</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/351df96a03.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Online Alarm Clock</h1>
+    </header>
+    <div id="container">
+        <div id="display-time">
+            <div id="clock">
+
+            </div>
+
+        </div>
+        
+        <div class="date">
+            <span id="dayName">WednesdDay</span>,
+            <span id="dayNum">20</span>,
+            <span id="month">August</span>,
+            
+            <span id="year">2040</span>
+        </div>
+        <hr>
+       <form id="setAlarm">
+        <h2>Set Alarm Time</h2>
+        <div id="input-boxes">
+            <input type="number" id="hour" placeholder="Hour" max="23" min="00">
+            <input type="number" id="min" placeholder="Minute" max="59" min="00">
+            <input type="number" id="sec" placeholder="Second" max="59" min="00">
+
+        </div>
+        <div id="btns">
+            <button type="submit" id="set-alarm">Set Alarm</button>
+            <button type="reset" id="clear" onclick="stop()" >Stop</button>
+        </div>
+        
+       </form>
+       <hr class="hr2">
+       <h2>Alarms</h2>
+       <ul id="lists">
+        
+
+       </ul>
+        
+        
+
+
+
+    </div>
+    <!-- <h2>Set Alarm Time</h2> -->
+
+
+
+
+
+
+
+
+
+
+ <script src="app.js"></script>   
+</body>
+</html>
